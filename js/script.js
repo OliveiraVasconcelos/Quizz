@@ -2,7 +2,7 @@ const quizzContainer = document.querySelector('#quizz-container');
 const scoreContainer = document.querySelector('#score-container');
 const answersBox     = document.querySelector('#answers-box');
 const letters        = ['a', 'b', 'c', 'd'];
-let points            = 0;
+let points           = 0;
 let actualQuestion   = 0;
 
 const questions = [
